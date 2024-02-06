@@ -97,9 +97,9 @@ public class Motherboard {
 
     @Override
     public String toString() {
-        return "Brand: " + brand +
-                " Model : " + model +
-                " Form Factor: " + formFactor + '\n' +
+        return "Brand: " + brand + '\n' +
+                "Model: " + model + '\n' +
+                "Form Factor: " + formFactor + '\n' +
                 "Processor Socket: " + processorSocket + '\n' +
                 "Compatible OS: " + compatibleOS + '\n' +
                 "Number of PCI Slots: " + pciSlots + '\n' +
