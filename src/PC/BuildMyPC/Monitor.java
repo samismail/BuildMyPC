@@ -70,7 +70,7 @@ public class Monitor {
     public String toString() {
         return "Manufacturer: " + manufacturer + '\n' +
                 "Model: " + model + '\n' +
-                "Resolution: " + resolution +
+                "Max Resolution: " + resolution +
                 " Screen Size: " + screenSize + " inches" +
                 " Refresh Rate: " + refreshRate + "Hz";
     }
