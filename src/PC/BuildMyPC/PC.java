@@ -38,9 +38,9 @@ public class PC {
 
     @Override
     public String toString() {
-        return "      My PC" + 'n/' +
-                "Case: " + theCase + 'n/' +
-                "Monitor: " + monitor + 'n/' +
-                "Motherboard: " + motherboard;
+        return "          My PC" + '\n' +
+                "      Case " + '\n' + theCase + '\n' +
+                "      Monitor " + '\n' + monitor + '\n' +
+                "      Motherboard " + '\n' + motherboard;
     }
 }

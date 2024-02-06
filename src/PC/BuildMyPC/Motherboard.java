@@ -94,4 +94,16 @@ public class Motherboard {
     public void setMaxRAM(int maxRAM) {
         this.maxRAM = maxRAM;
     }
+
+    @Override
+    public String toString() {
+        return "Brand: " + brand +
+                " Model : " + model +
+                " Form Factor: " + formFactor + '\n' +
+                "ProcessorSocket: " + processorSocket + '\n' +
+                "Compatible OS: " + compatibleOS + '\n' +
+                "Number of PCI Slots: " + pciSlots + '\n' +
+                "Number of RAM Slots: " + ramSlots + '\n' +
+                "Max RAM: " + maxRAM + "GB";
+    }
 }

@@ -35,4 +35,11 @@ public class Dimension {
     public void setDepth(double depth) {
         this.depth = depth;
     }
+
+    @Override
+    public String toString() {
+        return "Height: " + height + " inches" +
+                " Width: " + length + " inches" +
+                " Depth: " + depth + " inches";
+    }
 }

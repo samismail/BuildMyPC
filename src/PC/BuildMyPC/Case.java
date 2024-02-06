@@ -53,9 +53,9 @@ public class Case {
 
     @Override
     public String toString() {
-        return "Brand: " + brand + 'n/' +
-                "Model: " + model + 'n/' +
-                "Material:" + material + 'n/' +
+        return "Brand: " + brand + '\n' +
+                "Model: " + model + '\n' +
+                "Material: " + material + '\n' +
                 "Dimension: " + dimension;
     }
 }

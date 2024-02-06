@@ -65,4 +65,13 @@ public class Monitor {
     public void setRefreshRate(int refreshRate) {
         this.refreshRate = refreshRate;
     }
+
+    @Override
+    public String toString() {
+        return "Manufacturer: " + manufacturer + '\n' +
+                "Model: " + model + '\n' +
+                "Resolution: " + resolution +
+                " Screen Size: " + screenSize + " inches" +
+                " Refresh Rate: " + refreshRate + "Hz";
+    }
 }

@@ -4,7 +4,7 @@ public class Resolution {
     private double height;
     private double width;
 
-    public Resolution(double height, double width){
+    public Resolution(int height, int width){
         this.height = height;
         this.width = width;
     }
@@ -23,5 +23,10 @@ public class Resolution {
 
     public void setWidth(double width) {
         this.width = width;
+    }
+
+    @Override
+    public String toString() {
+        return height + " x " + width;
     }
 }
